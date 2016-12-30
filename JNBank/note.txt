@@ -1,0 +1,16 @@
+登录信息：
+用户名：czsib
+密码：czsib
+
+注意事项:
+  1.最好使用IE浏览器，其他有的浏览器登录不上！
+  2.需要配置端口映射，来访问linux上面的tomcat。可以在使用vagrant把虚机启起来之后打开virtual box，右键虚机->设置->网络，在里面配置端口映射。也可以在vagrantfile中配置端口映射。
+  3.启动oracle：
+  	#su - oracle
+		#lsnrctl start
+		#sqlplus / as sysdba
+		#startup
+  4.关闭oracle：
+  	#su - oracle
+	#sqlplus / as sysdba
+	#shutdown
